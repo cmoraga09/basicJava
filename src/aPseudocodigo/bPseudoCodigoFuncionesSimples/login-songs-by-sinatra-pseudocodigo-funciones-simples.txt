@@ -1,0 +1,18 @@
+navegarURL(){
+    abrir el navegador
+    ingresar la url
+}
+
+validarHomePage(){
+    esperar que cargara la imagen
+    validar que la imagen esta visible
+    validar que el link de login este visible
+}
+
+loginCorrecto(){
+
+}
+
+validarLogin(){
+
+}

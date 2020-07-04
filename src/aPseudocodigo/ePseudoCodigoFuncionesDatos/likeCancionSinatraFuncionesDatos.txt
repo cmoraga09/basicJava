@@ -1,0 +1,50 @@
+probrDarLikeCacionSinatra(){
+    navegarPagina()
+    verificarHomePage();
+    navegarListadoCanciones();
+    verficarPaginaSong();
+    nombreCancion se inicializa con capturarNombreCancion(1)
+    navegarCancion(1)
+    validarNombreCancion(nombre_cancion)
+    numeroLikes se inicializa con obtenerNumerosLikes()
+    darLike()
+    validarNumeroLikes(numero_likes)
+}
+
+validarNumeroLikes(numero_likes){
+    numero_likes_actual se inicializa con obtenerNumeroLikes()
+    if(numero_likes_actual es mayor que el numero_likes){
+        imprimir si se le dio like, exito
+    }else {
+        imprimir no se le dio like, fallo
+    }
+}
+
+numero obtenerNumeroLikes(){
+    esperar a que aparezca el elemento numero de likes
+    texto_likes se saca con obtenerTextoNumeroLikes()
+    extraer el numero que viene en el texto
+    numero_likes se inicializa convertirlo a numero
+    return numeroLikes
+}
+
+navegarCancion(numero_cancion){
+    encontrar la lista de canciones
+    numero_canciones se inicializa con el numero de elementos de la lista
+    if(numero_canciones es menor al numero_cancion){
+        imprimir "No existen suficientes canciones, fallo"
+    } else {
+    obtener el elemento numero_cancion
+    darle click al elemento
+    }
+}
+
+verificarPaginaSongs(){
+    espero a que salga la lista de las canciones
+    verificar que el header diga 'Songs'
+    verificar que existe el elemento "Creata a New Song"
+    verificar que hay una liga que contenga la palabra 'log'
+    encontrar la lista de canciones
+    numero_canciones se inicializa con el numero de elementos en la liga de canciones
+    verificar que numero_canciones es mayor que 1
+}

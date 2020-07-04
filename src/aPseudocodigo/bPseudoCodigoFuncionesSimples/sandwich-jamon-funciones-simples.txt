@@ -1,0 +1,34 @@
+hacerSandwich(){
+    reunirIngredientes()
+    reunirUtensiliosDeCocina()
+    tomarRebanadasPan()
+    untarAderezoPan()
+
+}
+
+reunirIngredientes(){
+    Pan()
+
+}
+
+reunirUtensiliosDeCocina(){
+    Cuchillos(Serrado, cebollero)
+    Tabla de picar (madera, plastico)
+    Platos
+    Servilletas
+
+}
+
+tomarRebanadasPan(){
+    Abrir paquete de pan rebanado o rebanar barra de pan. ¿Quitar orillas?
+}
+
+untarAderezoPan(){
+    Solo un lado
+    ¿Ambas con mayonesa? ¿Una con mayonesa otra con mostaza?
+
+}
+
+agregarIngredientes(){
+
+}

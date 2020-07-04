@@ -1,0 +1,11 @@
+contador de sandwich de bolonia = 0
+while (contador bolonias menor a 10){
+    hacerSandwichBolonia();
+    contador Bolonia mas uno
+}
+
+contador de sandwich de jamon = 0
+while (contador bolonias menor a 5){
+    hacerSandwichJamon();
+    contador Bolonia mas uno
+}
